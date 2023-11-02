@@ -2,7 +2,7 @@
 # displaying the first three numbers
 def display_fibonacci():
 
-    num_fibonacci = 3 # number of figures to display
+    num_fibonacci = int(input("Enter the number of fibonacci numbers to display")) # number of figures to display
 
     num1, num2 = 0, 1 # first two numbers in sequence
 
